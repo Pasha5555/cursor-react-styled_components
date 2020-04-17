@@ -1,13 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
+
+import SignUp from './Component/SignUp';
+import SignIn from './Component/SignIn';
 
 function App() {
   return (
-    <div className="App">
-    hello
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route path="/sign-up">
+          <SignUp />
+        </Route>
+        <Route path="/">
+          <SignIn />
+        </Route>
+      </Switch>
+  </Router>
+  )
 }
 
 export default App;
