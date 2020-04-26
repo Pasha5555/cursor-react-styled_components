@@ -122,7 +122,7 @@ export default class SignUp extends Component{
                 </CheckBox_position>
                 <Button onClick={this.saveData}>SIGN UP</Button>
                 <div>
-                    <Link to='/sing-up'><Link_signUp>Already have an account? Sign in</Link_signUp></Link>
+                    <Link to='/sign-in'><Link_signUp>Already have an account? Sign in</Link_signUp></Link>
                 </div>
                 <Footer>Copyrigth &copy; Your Website 2020.</Footer>
             </Container>

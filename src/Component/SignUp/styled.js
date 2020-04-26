@@ -30,10 +30,10 @@ export const Input = styled.input`
 
 `;
 
-export const Label = styled.div`
-    margin-right: 215px;
-    color: white;
-`;
+// export const Label = styled.div`
+//     margin-right: 215px;
+//     color: white;
+// `;
 
 export const CheckBox = styled.input`
     margin-right: 7px;
@@ -56,12 +56,12 @@ export const Button = styled.button`
     margin-bottom: 20px;
     cursor: pointer;
 `;
-export const Txt_forgot = styled.span`
-    display: inline;
-    margin-right: 5px;
-    color: rgb(153, 153, 245);
-    font-size: 13px;
-`;
+// export const Txt_forgot = styled.span`
+//     display: inline;
+//     margin-right: 5px;
+//     color: rgb(153, 153, 245);
+//     font-size: 13px;
+// `;
 
 export const Link_signUp = styled.span`
     margin-left: 125px;
