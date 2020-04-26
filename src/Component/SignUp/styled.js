@@ -20,7 +20,6 @@ export const Input = styled.input`
     height: 35px;
     padding: 2px 3px 2px 7px;
     margin-bottom: 15px;
-    /* border: 2px solid rgb(85, 85, 151); */
     border: ${ props => props.emptyInput? '2px solid rgb(85, 85, 151)' : props.border ? '2px solid green' :'2px solid red'};
     color: rgb(85, 85, 151);
     border-radius:3px;
@@ -29,11 +28,6 @@ export const Input = styled.input`
     opacity: 0.7;
 
 `;
-
-// export const Label = styled.div`
-//     margin-right: 215px;
-//     color: white;
-// `;
 
 export const CheckBox = styled.input`
     margin-right: 7px;
